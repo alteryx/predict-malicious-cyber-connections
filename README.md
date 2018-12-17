@@ -3,7 +3,7 @@
     <img style="display:inline; margin-right:50px" width=50% src="https://www.featuretools.com/wp-content/uploads/2017/12/FeatureLabs-Logo-Tangerine-800.png" alt="Featuretools" />
 </p>
 
-The general setup for the problem is a common one: we have a single table of log lines recording Internet traffic between various sources. Traffic between a source and destination is labeled as malicious or clean in the dataset, and we'd like to be able to predict ahead of time if a future connection between a source and a destination will be malicious.
+**The general setup for the problem is a common one: we have a single table of log lines recording Internet traffic between various sources. Traffic between a source and destination is labeled as malicious or clean in the dataset, and we'd like to be able to predict ahead of time if a future connection between a source and a destination will be malicious.**
 
 We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https://s3.amazonaws.com/featuretools-static/CyberFLTenDays.csv) derived from [data](https://csr.lanl.gov/data/cyber1/) from the Los Alamos National Laboratory. This notebook demonstrates a rapid way to predict whether a connection (defined in several ways) is malicious.
 
@@ -15,7 +15,8 @@ We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https:/
 * Find interesting automatically generated features
 
 ## Demonstration
-The main notebook can be found [here](). To run that notebook, you will need to download Featuretools with
+The main notebook can be found [here]().<br/>
+To run that notebook, you will need to download Featuretools with
 ```
 pip install featuretools
 ```
