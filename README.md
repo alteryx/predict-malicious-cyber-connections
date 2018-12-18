@@ -7,12 +7,9 @@
 
 We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https://s3.amazonaws.com/featuretools-static/CyberFLTenDays.csv) derived from [data](https://csr.lanl.gov/data/cyber1/) from the Los Alamos National Laboratory. This notebook demonstrates a rapid way to predict whether a connection (defined in several ways) is malicious.
 
-1. [Generate features for several types of connections](Create%20Feature%20Matrices%20from%20LL%20Cyber%20Data.ipynb)
-2. [Make predictions for source name/destination name pairs with Machine Learning](Predicting%20Malicious%20Cyber%20Connections%20with%20Featuretools.ipynb)
-
 ## Highlights
-* Automatically generate 2000 features
-* Learn how to write your own primitive to be applied to the data
+* Quickly make end-to-end workflow using log-line cybersecurity data
+* Find interesting automatically generated features
 
 ## Running the tutorial
 1. Clone the repo
@@ -29,7 +26,7 @@ We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https:/
 
 3. Download the [data](https://s3.amazonaws.com/featuretools-static/CyberFLTenDays.csv)
 
-4. Run the Tutorials:
+4. Run the Tutorial notebooks:
     - [Generate features for several types of connections](Create%20Feature%20Matrices%20from%20LL%20Cyber%20Data.ipynb)
     - [Make predictions for source name/destination name pairs with Machine Learning](Predicting%20Malicious%20Cyber%20Connections%20with%20Featuretools.ipynb)
 
