@@ -1,0 +1,2 @@
+featuretools>=0.3.1
+scikit-learn>=0.19.0

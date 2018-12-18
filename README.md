@@ -21,7 +21,7 @@ We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https:/
 2. Install the requirements
 
     ```
-    pip install featuretools
+    pip install -r requirements.txt
     ```
 
 3. Download the data <br/>
