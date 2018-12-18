@@ -11,15 +11,28 @@ We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https:/
 2. [Make predictions for source name/destination name pairs with Machine Learning](Predicting%20Malicious%20Cyber%20Connections%20with%20Featuretools.ipynb)
 
 ## Highlights
-* Quickly make end-to-end workflow using log-line cybersecurity data
-* Find interesting automatically generated features
+* Automatically generate 2000 features
+* Learn how to write your own primitive to be applied to the data
 
-## Demonstration
-The main notebook can be found [here]().<br/>
-To run that notebook, you will need to download Featuretools with
-```
-pip install featuretools
-```
+## Running the tutorial
+1. Clone the repo
+
+    ```
+    git clone https://github.com/Featuretools/predict-malicious-cyber-connections.git
+    ```
+
+2. Install the requirements
+
+    ```
+    pip install featuretools
+    ```
+
+3. Download the [data](https://s3.amazonaws.com/featuretools-static/CyberFLTenDays.csv)
+
+4. Run the Tutorials:
+    - [Generate features for several types of connections](Create%20Feature%20Matrices%20from%20LL%20Cyber%20Data.ipynb)
+    - [Make predictions for source name/destination name pairs with Machine Learning](Predicting%20Malicious%20Cyber%20Connections%20with%20Featuretools.ipynb)
+
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
