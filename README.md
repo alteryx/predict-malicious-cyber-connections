@@ -25,9 +25,15 @@ We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https:/
     ```
 
 3. Download the data <br/>
+
     You can download the data from [Amazon S3](https://s3.amazonaws.com/featuretools-static/CyberFLTenDays.csv). After downloading, save the CSV to a directory called `data` in the root of this repository.
 
 4. Run the Tutorial notebooks:
+
+    ```
+    jupyter notebook
+    ```
+
     - [Generate features for several types of connections](Create%20Feature%20Matrices%20from%20LL%20Cyber%20Data.ipynb)
     - [Make predictions for source name/destination name pairs with Machine Learning](Predicting%20Malicious%20Cyber%20Connections%20with%20Featuretools.ipynb)
 
