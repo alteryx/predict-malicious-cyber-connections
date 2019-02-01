@@ -20,24 +20,12 @@ We'll demonstrate an end-to-end workflow using a [Cybersecurity Dataset](https:/
 
 2. Install the requirements
 
+    ```
+    pip install -r requirements.txt
+    ```
+    
+    *Also, You will need to install graphviz for this demo. Please install graphviz according to the instructions in the [Featuretools Documentation](https://docs.featuretools.com/getting_started/install.html)*
 
-    #### Mac OS
-    ```
-    brew install graphviz
-    pip install -r requirements.txt
-    ```
-    
-    #### Linux
-    ```
-    sudo apt-get install graphviz
-    pip install -r requirements.txt
-    ```
-    
-    #### Windows
-    ```
-    conda install python-graphviz
-    pip install -r requirements.txt
-    ```
 
 3. Download the data <br/>
 
