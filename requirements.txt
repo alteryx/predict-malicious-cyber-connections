@@ -1,5 +1,5 @@
-composeml>=0.1.5
-featuretools>=0.6.0
+composeml>=0.3.0
+featuretools>=0.16.0
 jupyter>=1.0.0
 scikit-learn>=0.20.2
 graphviz>=0.10.1
